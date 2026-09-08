@@ -403,7 +403,7 @@ const skillsDetailData = {
       { id: 'chatgpt', icon: 'img/assect/chatgpt.svg', name: 'ChatGPT', desc: '기획 · 코드 분석 · 디버깅', level: 95, labelText: '95%' },
       { id: 'claude', icon: 'img/assect/claude.svg', name: 'Claude', desc: '코드 작성 · 분석 · 리팩터링', level: 90, labelText: '90%' },
       { id: 'gemini', icon: 'img/assect/gemini.svg', name: 'Gemini', desc: '리서치 · 아이디어 · 개발 보조', level: 85, labelText: '85%' },
-      { id: 'antigravity', icon: 'img/assect/etc.svg', name: 'Antigravity', desc: 'AI-assisted Pair Programming', level: 80, labelText: '80%' }
+      { id: 'antigravity', icon: 'img/assect/antigravity.svg', name: 'Antigravity', desc: 'AI-assisted Pair Programming', level: 80, labelText: '80%' }
     ]
   }
 };
@@ -510,6 +510,7 @@ function renderSkillsDetail(categoryKey, targetSkillId = null) {
 
 function filterToolCards(categoryKey) {
   toolCards.forEach((card, index) => {
+    const cardCat = card.getAttribute('data-category');
     const matches = categoryKey === 'all' || cardCat === categoryKey;
 
     if (matches) {
