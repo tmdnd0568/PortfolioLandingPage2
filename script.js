@@ -630,6 +630,21 @@ if (skillsSection) {
   observer.observe(skillsSection);
 }
 
+// ===== Projects Section Scroll Reveal Observer =====
+const projectCards = document.querySelectorAll('.project-showcase-card');
+if (projectCards.length > 0) {
+  const projectObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        projectObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  projectCards.forEach(card => projectObserver.observe(card));
+}
+
 
 
 
