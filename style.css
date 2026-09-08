@@ -1008,11 +1008,45 @@ section{padding:96px 0;}
 .double-phone-wrapper {
   position: relative;
   width: 340px;
-  height: 380px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+/* Real iPhone Image Wrappers */
+.phone-img-wrap {
+  position: absolute;
+  width: 170px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 28px 48px rgba(35, 25, 65, 0.22);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.phone-img-back {
+  right: 16px;
+  top: 8px;
+  transform: rotate(6deg);
+  z-index: 1;
+}
+.phone-img-front {
+  left: 16px;
+  top: 24px;
+  transform: rotate(-5deg);
+  z-index: 2;
+}
+.phone-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.showcase-visual:hover .phone-img-back {
+  transform: rotate(8deg) translateY(-8px) scale(1.03);
+}
+.showcase-visual:hover .phone-img-front {
+  transform: rotate(-3deg) translateY(-10px) scale(1.03);
+}
+
 .phone-mockup {
   width: 175px;
   height: 340px;
