@@ -1130,143 +1130,10 @@ section{padding:96px 0;}
   background: linear-gradient(160deg, #111114, #2b2b34);
 }
 .viewport-hangeul {
-  background: linear-gradient(160deg, #0e0c1f, #1e1640);
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  padding: 0;
-  gap: 0;
+  background: linear-gradient(160deg, #1b1230, #3a2360);
 }
 
-/* Hangeul Museum Mockup - Nav */
-.hg-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 18px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-}
-.hg-nav-logo {
-  font-family: 'Jua', sans-serif;
-  font-size: 11px;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
-.hg-nav-links {
-  display: flex;
-  gap: 14px;
-}
-.hg-nav-links span {
-  font-size: 9px;
-  color: rgba(255, 255, 255, 0.55);
-  font-weight: 500;
-  letter-spacing: 0.04em;
-}
-
-/* Hangeul Museum Mockup - Hero */
-.hg-hero {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 16px 18px 10px;
-  gap: 6px;
-}
-.hg-badge {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 7.5px;
-  letter-spacing: 0.12em;
-  color: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 99px;
-  width: fit-content;
-}
-.hg-title-group {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 6px;
-}
-.hg-jamo {
-  font-family: 'Jua', sans-serif;
-  font-size: 52px;
-  line-height: 1;
-  color: rgba(255, 255, 255, 0.08);
-  letter-spacing: -0.02em;
-  flex-shrink: 0;
-  user-select: none;
-}
-.hg-main-title {
-  font-family: 'Jua', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #ffffff;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  margin: 0;
-}
-.hg-sub {
-  font-size: 9px;
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 1.6;
-  margin-top: 4px;
-}
-.hg-cta-row {
-  display: flex;
-  gap: 8px;
-  margin-top: 10px;
-}
-.hg-cta-btn {
-  background: #b69bff;
-  color: #1b1040;
-  font-size: 9px;
-  font-weight: 700;
-  padding: 5px 14px;
-  border-radius: 99px;
-  letter-spacing: 0.02em;
-}
-.hg-cta-ghost {
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 9px;
-  font-weight: 600;
-  padding: 5px 14px;
-  border-radius: 99px;
-  letter-spacing: 0.02em;
-}
-
-/* Hangeul Museum Mockup - Bottom Cards */
-.hg-card-row {
-  display: flex;
-  border-top: 1px solid rgba(255, 255, 255, 0.07);
-}
-.hg-card {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 8px;
-  gap: 3px;
-  border-right: 1px solid rgba(255, 255, 255, 0.06);
-}
-.hg-card:last-child { border-right: none; }
-.hg-card-label {
-  font-size: 8px;
-  color: rgba(255, 255, 255, 0.45);
-  letter-spacing: 0.05em;
-}
-.hg-card-num {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
-  font-weight: 700;
-  color: #b69bff;
-}
-
-
-/* Browser Mock Content Styling (ARENA) */
+/* Browser Mock Content Styling */
 .mock-web-hero { text-align: center; color: #ffffff; }
 .web-badge {
   font-family: "JetBrains Mono", monospace;
@@ -1277,7 +1144,6 @@ section{padding:96px 0;}
   border: 1px solid rgba(255,255,255,0.2);
   padding: 3px 10px;
   border-radius: 99px;
-  display: inline-block;
 }
 .web-title { font-size: 24px; font-weight: 800; margin-top: 10px; letter-spacing: -0.02em; }
 .web-desc { font-size: 12px; opacity: 0.75; margin-top: 4px; }
@@ -1292,6 +1158,12 @@ section{padding:96px 0;}
   height: 40px;
   background: rgba(255,255,255,0.12);
   border-radius: 6px;
+}
+.hangeul-graphic-line {
+  margin-top: 14px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.65);
+  font-family: "Jua", sans-serif;
 }
 
 /* Showcase Content Area */
