@@ -510,8 +510,7 @@ function renderSkillsDetail(categoryKey, targetSkillId = null) {
 
 function filterToolCards(categoryKey) {
   toolCards.forEach((card, index) => {
-    const cardCat = card.getAttribute('data-category');
-    const matches = categoryKey === 'all' || cardCat === categoryKey || card.classList.contains('item-etc');
+    const matches = categoryKey === 'all' || cardCat === categoryKey;
 
     if (matches) {
       card.style.display = 'flex';
