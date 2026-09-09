@@ -376,7 +376,7 @@ const skillsDetailData = {
       { id: 'javascript', icon: 'img/assect/javascript.svg', name: 'JavaScript', desc: '구현경험 · 학습중 · 기초 기능', level: 65, labelText: 'Learning' },
       { id: 'typescript', icon: 'img/assect/typescript.svg', name: 'TypeScript', desc: '구현경험 · 학습중', level: 50, labelText: 'Learning' },
       { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: '구현경험 · 학습중', level: 38, labelText: 'Learning' },
-      { id: 'vite', icon: 'img/assect/vite.svg', name: 'Vite', desc: '빠른 개발 환경 · HMR · 모듈 번들링', level: 75, labelText: 'Usable' }
+      { id: 'vite', icon: 'img/assect/vite.svg', name: 'Vite', desc: '구현경험 · 학습중', level: 45, labelText: 'Learning' }
     ]
   },
   dev: {
