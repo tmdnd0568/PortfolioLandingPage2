@@ -2284,6 +2284,8 @@ section {
 
 /* ===== Contact ===== */
 .contact-inner {
+  position: relative;
+  overflow: hidden;
   background: var(--ink);
   color: #fff;
   border-radius: 28px;
@@ -2292,6 +2294,69 @@ section {
   align-items: center;
   gap: 28px;
   flex-wrap: wrap;
+}
+
+/* Background Orbit Decoration (matching Skills/Projects orbit style) */
+.contact-bg-orbit {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 520px;
+  height: 520px;
+  pointer-events: none;
+  z-index: 1;
+}
+.contact-orbit-ring {
+  position: absolute;
+  border-radius: 50%;
+}
+.contact-orbit-ring.ring-solid {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(167, 139, 250, 0.12);
+}
+.contact-orbit-ring.ring-dashed {
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  border: 1px dashed rgba(167, 139, 250, 0.16);
+}
+.contact-orbit-dot {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #d8b4fe, #8b5cf6);
+  box-shadow: 0 0 14px rgba(139, 92, 246, 0.45);
+}
+.contact-orbit-dot.dot-1 {
+  width: 15px;
+  height: 15px;
+  top: 65px;
+  left: 105px;
+  animation: contactOrbitFloat1 6s infinite ease-in-out;
+}
+.contact-orbit-dot.dot-2 {
+  width: 9px;
+  height: 9px;
+  top: 235px;
+  left: 175px;
+  animation: contactOrbitFloat2 8s infinite ease-in-out;
+}
+
+@keyframes contactOrbitFloat1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-6px, 8px); }
+}
+@keyframes contactOrbitFloat2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(6px, -5px); }
+}
+
+.contact-left,
+.contact-center,
+.contact-right {
+  position: relative;
+  z-index: 2;
 }
 .contact-left {
   flex: 0 1 auto;
