@@ -1,10 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
   <defs>
-    <linearGradient id="agGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7057ff"/>
-      <stop offset="100%" stop-color="#00d2ff"/>
+    <!-- Multicolor Arch Gradient matching the exact Antigravity desktop icon -->
+    <linearGradient id="antigravityArchGrad" x1="0%" y1="100%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="25%" stop-color="#34d399"/>
+      <stop offset="50%" stop-color="#facc15"/>
+      <stop offset="75%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
   </defs>
-  <path fill="url(#agGrad)" d="M12 1L2 6.5v11L12 23l10-5.5v-11L12 1zm0 3.3l7 3.8-7 3.8-7-3.8 7-3.8zm-8 6.5l7 3.8v7.2l-7-3.8v-7.2zm9 11v-7.2l7-3.8v7.2l-7 3.8z"/>
-  <circle cx="12" cy="7" r="1.5" fill="#fff"/>
+
+  <!-- Dark grid background matching the shortcut icon -->
+  <rect width="22" height="22" x="1" y="1" rx="5" fill="#11131a"/>
+  
+  <!-- Subtle Grid Lines -->
+  <path d="M1 7h22M1 12h22M1 17h22M7 1v22M12 1v22M17 1v22" stroke="#1f2333" stroke-width="0.8"/>
+
+  <!-- Antigravity Signature Arch Ribbon 'A' -->
+  <path fill="url(#antigravityArchGrad)" d="M4.5 19.5C5.2 16.2 7.8 8.8 11.8 5.6C12.8 4.8 14.2 5.2 14.8 6.5C16.8 10.8 18.4 16.5 19.3 18.8C19.6 19.6 18.7 20.3 17.9 19.8C16.8 19 15.2 15.2 13.8 11.8C13.2 10.4 12.6 9.5 11.9 9.5C11.1 9.5 10.4 10.4 9.7 11.8C8.2 15.2 6.7 19 5.6 19.8C4.8 20.3 3.9 19.6 4.5 19.5Z"/>
 </svg>

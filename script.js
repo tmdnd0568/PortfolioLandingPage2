@@ -348,7 +348,7 @@ const skillsDetailData = {
       { id: 'design', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`, title: 'Design', desc: 'UI/UX · Wireframe · Prototype', level: 90, labelText: '90%' },
       { id: 'frontend', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`, title: 'Front-End', desc: 'HTML · CSS · JavaScript · TypeScript', level: 85, labelText: '85%' },
       { id: 'dev', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`, title: 'Development', desc: 'GitHub · Vercel · Firebase', level: 85, labelText: '85%' },
-      { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Workflow', desc: 'ChatGPT · Claude · Gemini · Antigravity', level: 90, labelText: '90%' }
+      { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Workflow', desc: 'ChatGPT · Claude · Gemini · Antigravity · Stitch', level: 90, labelText: '90%' }
     ]
   },
   design: {
@@ -371,12 +371,11 @@ const skillsDetailData = {
     desc: '사용자와 가장 가까운 곳에서, 아이디어를 인터페이스로 구현합니다.',
     isOverview: false,
     rows: [
-      { id: 'html5', icon: 'img/assect/html5.svg', name: 'HTML5', desc: '시맨틱 마크업 · 웹 구조 설계', level: 90, labelText: '90%' },
-      { id: 'css3', icon: 'img/assect/css3.svg', name: 'CSS3', desc: 'Flexbox · Grid · Responsive', level: 85, labelText: '85%' },
-      { id: 'javascript', icon: 'img/assect/javascript.svg', name: 'JavaScript', desc: 'DOM · Event · Interaction', level: 75, labelText: '75%' },
-      { id: 'typescript', icon: 'img/assect/typescript.svg', name: 'TypeScript', desc: 'Type 기반의 안정적인 개발', level: 65, labelText: '65%' },
-      { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: '컴포넌트 기반 UI 개발', level: 45, labelText: 'In Progress' },
-      { id: 'nextjs', icon: 'img/assect/nextjs.svg', name: 'Next.js', desc: 'SSR · SSG · Optimal Performance', level: 25, labelText: 'Learning' }
+      { id: 'html5', icon: 'img/assect/html5.svg', name: 'HTML5', desc: '시맨틱 마크업 · 웹 구조 설계', level: 90, labelText: 'Proficient' },
+      { id: 'css3', icon: 'img/assect/css3.svg', name: 'CSS3', desc: 'Flexbox · Grid · Responsive', level: 80, labelText: 'Usable' },
+      { id: 'javascript', icon: 'img/assect/javascript.svg', name: 'JavaScript', desc: '구현경험 · 학습중 · 기초 기능', level: 65, labelText: 'Learning' },
+      { id: 'typescript', icon: 'img/assect/typescript.svg', name: 'TypeScript', desc: '구현경험 · 학습중', level: 50, labelText: 'Learning' },
+      { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: '구현경험 · 학습중', level: 38, labelText: 'Learning' }
     ]
   },
   dev: {
@@ -403,7 +402,8 @@ const skillsDetailData = {
       { id: 'chatgpt', icon: 'img/assect/chatgpt.svg', name: 'ChatGPT', desc: '기획 · 코드 분석 · 디버깅', level: 95, labelText: '95%' },
       { id: 'claude', icon: 'img/assect/claude.svg', name: 'Claude', desc: '코드 작성 · 분석 · 리팩터링', level: 90, labelText: '90%' },
       { id: 'gemini', icon: 'img/assect/gemini.svg', name: 'Gemini', desc: '리서치 · 아이디어 · 개발 보조', level: 85, labelText: '85%' },
-      { id: 'antigravity', icon: 'img/assect/antigravity.svg', name: 'Antigravity', desc: 'AI-assisted Pair Programming', level: 80, labelText: '80%' }
+      { id: 'antigravity', icon: 'img/assect/antigravity.svg', name: 'Antigravity', desc: 'AI-assisted Pair Programming', level: 80, labelText: '80%' },
+      { id: 'stitch', icon: 'img/assect/stitch.svg', name: 'Stitch', desc: 'AI 기반 UI & 코드 생성', level: 85, labelText: '85%' }
     ]
   }
 };
@@ -644,6 +644,103 @@ if (projectCards.length > 0) {
 
   projectCards.forEach(card => projectObserver.observe(card));
 }
+
+// ===== Navigation Active State & ScrollSpy (Performance Optimized) =====
+const navLinks = document.querySelectorAll('.nav-links a');
+const navSections = document.querySelectorAll('section[id]');
+
+// Ensure each nav link has a .nav-dot element
+navLinks.forEach(link => {
+  if (!link.querySelector('.nav-dot')) {
+    const dot = document.createElement('span');
+    dot.className = 'nav-dot';
+    link.appendChild(dot);
+  }
+});
+
+let isNavTicking = false;
+let isUserNavClicking = false;
+let navClickTimeout = null;
+let cachedSectionPositions = [];
+
+function updateCachedSectionPositions() {
+  cachedSectionPositions = Array.from(navSections).map(section => ({
+    id: section.getAttribute('id'),
+    top: section.offsetTop,
+    height: section.offsetHeight
+  }));
+}
+
+function updateNavActiveState() {
+  if (isUserNavClicking) return;
+
+  let currentSectionId = '';
+  const scrollPos = window.scrollY + 220;
+
+  for (let i = 0; i < cachedSectionPositions.length; i++) {
+    const s = cachedSectionPositions[i];
+    if (scrollPos >= s.top && scrollPos < s.top + s.height) {
+      currentSectionId = s.id;
+    }
+  }
+
+  // Fallback for near bottom of page (Contact section)
+  if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 60) {
+    currentSectionId = 'contact';
+  }
+
+  if (currentSectionId) {
+    navLinks.forEach(link => {
+      const isTarget = link.getAttribute('href') === `#${currentSectionId}`;
+      if (isTarget && !link.classList.contains('active')) {
+        link.classList.add('active');
+      } else if (!isTarget && link.classList.contains('active')) {
+        link.classList.remove('active');
+      }
+    });
+  }
+}
+
+function onNavScrollThrottled() {
+  if (!isNavTicking) {
+    requestAnimationFrame(() => {
+      updateNavActiveState();
+      isNavTicking = false;
+    });
+    isNavTicking = true;
+  }
+}
+
+// Immediate feedback on link click & lock during smooth scroll
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    isUserNavClicking = true;
+    if (navClickTimeout) clearTimeout(navClickTimeout);
+
+    navLinks.forEach(l => l.classList.remove('active'));
+    link.classList.add('active');
+
+    navClickTimeout = setTimeout(() => {
+      isUserNavClicking = false;
+      updateNavActiveState();
+    }, 800);
+  });
+});
+
+updateCachedSectionPositions();
+updateNavActiveState();
+
+window.addEventListener('scroll', onNavScrollThrottled, { passive: true });
+window.addEventListener('resize', () => {
+  updateCachedSectionPositions();
+  updateNavActiveState();
+});
+window.addEventListener('load', () => {
+  updateCachedSectionPositions();
+  updateNavActiveState();
+});
+
+
 
 
 
