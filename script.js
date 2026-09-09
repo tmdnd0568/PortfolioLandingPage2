@@ -346,7 +346,7 @@ const skillsDetailData = {
     isOverview: true,
     rows: [
       { id: 'design', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`, title: 'Design', desc: 'UI/UX · Wireframe · Prototype', level: 90, labelText: '90%' },
-      { id: 'frontend', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`, title: 'Front-End', desc: 'HTML · CSS · JavaScript · TypeScript', level: 85, labelText: '85%' },
+      { id: 'frontend', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`, title: 'Front-End', desc: 'HTML · CSS · JavaScript · TypeScript · React · Vite', level: 85, labelText: '85%' },
       { id: 'dev', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`, title: 'Development', desc: 'GitHub · Vercel · Firebase', level: 85, labelText: '85%' },
       { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Workflow', desc: 'ChatGPT · Claude · Gemini · Antigravity · Stitch', level: 90, labelText: '90%' }
     ]
@@ -375,7 +375,8 @@ const skillsDetailData = {
       { id: 'css3', icon: 'img/assect/css3.svg', name: 'CSS3', desc: 'Flexbox · Grid · Responsive', level: 80, labelText: 'Usable' },
       { id: 'javascript', icon: 'img/assect/javascript.svg', name: 'JavaScript', desc: '구현경험 · 학습중 · 기초 기능', level: 65, labelText: 'Learning' },
       { id: 'typescript', icon: 'img/assect/typescript.svg', name: 'TypeScript', desc: '구현경험 · 학습중', level: 50, labelText: 'Learning' },
-      { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: '구현경험 · 학습중', level: 38, labelText: 'Learning' }
+      { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: '구현경험 · 학습중', level: 38, labelText: 'Learning' },
+      { id: 'vite', icon: 'img/assect/vite.svg', name: 'Vite', desc: '빠른 개발 환경 · HMR · 모듈 번들링', level: 75, labelText: 'Usable' }
     ]
   },
   dev: {

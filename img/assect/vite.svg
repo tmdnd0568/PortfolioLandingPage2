@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 257">
+  <defs>
+    <linearGradient id="viteGrad1" x1="98.042%" y1="0%" x2="0%" y2="99.989%">
+      <stop offset="0%" stop-color="#FFEA83"/>
+      <stop offset="8.333%" stop-color="#FFDD35"/>
+      <stop offset="100%" stop-color="#FFA800"/>
+    </linearGradient>
+    <linearGradient id="viteGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#41D1FF"/>
+      <stop offset="100%" stop-color="#BD34FE"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#viteGrad2)" d="M255.153 37.938L134.897 252.976c-2.483 4.44-8.864 4.466-11.382.048L.875 37.958c-2.746-4.814 1.371-10.646 6.827-9.67l120.385 21.517a6.54 6.54 0 002.322 0l118.01-21.1a6.545 6.545 0 017.513 9.233z"/>
+  <path fill="url(#viteGrad1)" d="M185.432 13.808l-81.33 15.006a3.27 3.27 0 00-2.656 3.097l-3.328 66.865a3.27 3.27 0 004.256 3.256l24.767-7.794a3.27 3.27 0 014.161 3.518l-8.625 50.143a3.27 3.27 0 005.158 3.266l96.671-87.126a3.27 3.27 0 00-1.89-5.512l-27.795-4.484a3.27 3.27 0 01-2.434-4.225l13.784-40.485a3.27 3.27 0 00-5.739-3.531z"/>
+</svg>
