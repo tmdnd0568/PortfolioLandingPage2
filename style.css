@@ -76,8 +76,9 @@ header{
   display:flex;align-items:center;justify-content:space-between;
   height:72px;
 }
-.logo{font-family:"Pretendard",sans-serif;font-weight:900;font-size:22px;letter-spacing:-0.03em;color:var(--ink);}
+.logo{font-family:"Pretendard",sans-serif;font-weight:900;font-size:22px;letter-spacing:-0.03em;color:var(--ink);display:inline-flex;align-items:center;}
 .logo span{color:var(--accent);}
+.logo img{height:50px;width:auto;display:block;object-fit:contain;}
 .nav-links{display:flex;gap:34px;}
 .nav-links a{
   font-size:14.5px;color:var(--ink-soft);font-weight:600;transition:color .15s;
@@ -2538,6 +2539,9 @@ footer{border-top:1px solid var(--line);padding:32px 0;}
   }
   .logo {
     font-size: 20px;
+  }
+  .logo img {
+    height: 42px;
   }
   .nav-links {
     display: none;
