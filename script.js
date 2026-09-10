@@ -263,7 +263,7 @@ if (heroRight && !prefersReducedMotion) {
 
 // ===== Code Profile scroll-scrub =====
 const codeLines = [
-  [{ t: '// seungwoo.ts', c: 'c-punc' }],
+  [{ t: '// seungwoo.js', c: 'c-punc' }],
   [{ t: 'const ', c: 'c-key' }, { t: 'seungwoo', c: 'c-plain' }, { t: ' = {', c: 'c-punc' }],
   [{ t: '  name: ', c: 'c-plain' }, { t: '"길승우"', c: 'c-str' }, { t: ',', c: 'c-punc' }],
   [{ t: '  target: [', c: 'c-plain' }],
@@ -339,20 +339,20 @@ window.addEventListener('resize', updateScrub);
 // ===== New Skills Section Manager =====
 const skillsDetailData = {
   all: {
-    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
     eyebrow: 'ALL-ROUND OVERVIEW',
     title: '통합 역량 & 워크플로우',
     desc: '디자인부터 프론트엔드, 개발 도구 및 AI 활용까지 하나의 프로세스로 연결합니다.',
     isOverview: true,
     rows: [
-      { id: 'design', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`, title: 'Design', desc: 'UI/UX · Wireframe · Prototype', level: 90, labelText: '90%' },
-      { id: 'frontend', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`, title: 'Front-End', desc: 'HTML · CSS · JavaScript · TypeScript · React · Vite', level: 85, labelText: '85%' },
-      { id: 'dev', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`, title: 'Development', desc: 'GitHub · Vercel · Firebase', level: 85, labelText: '85%' },
-      { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Workflow', desc: 'ChatGPT · Claude · Gemini · Antigravity · Stitch', level: 90, labelText: '90%' }
+      { id: 'design', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`, title: 'Design', desc: 'UI/UX · Wireframe · Prototype', level: 90, labelText: '90%' },
+      { id: 'frontend', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`, title: 'Front-End', desc: 'HTML · CSS · JavaScript · TypeScript · React · Vite', level: 85, labelText: '85%' },
+      { id: 'dev', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`, title: 'Development', desc: 'GitHub · Vercel · Firebase', level: 85, labelText: '85%' },
+      { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Worker', desc: 'ChatGPT · Claude · Gemini · Antigravity · Stitch', level: 90, labelText: '90%' }
     ]
   },
   design: {
-    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`,
+    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`,
     eyebrow: 'DESIGN',
     title: 'UI/UX 디자인',
     desc: '사용자의 흐름을 설계하고 이를 실제 인터페이스로 시각화합니다.',
@@ -365,7 +365,7 @@ const skillsDetailData = {
     ]
   },
   frontend: {
-    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
+    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
     eyebrow: 'FRONT-END',
     title: '프론트엔드 개발',
     desc: '사용자와 가장 가까운 곳에서, 아이디어를 인터페이스로 구현합니다.',
@@ -380,7 +380,7 @@ const skillsDetailData = {
     ]
   },
   dev: {
-    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`,
+    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`,
     eyebrow: 'DEVELOPMENT',
     title: '개발 & 배포',
     desc: '프로젝트의 코드 관리부터 서비스 배포까지 개발 흐름을 관리합니다.',
@@ -394,8 +394,8 @@ const skillsDetailData = {
     ]
   },
   ai: {
-    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7057ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`,
-    eyebrow: 'AI WORKFLOW',
+    badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`,
+    eyebrow: 'AI WORKER',
     title: 'AI 활용 워크플로우',
     desc: 'AI를 단순 코드 생성 도구가 아니라 기획, 개발, 분석 및 문제 해결 과정에 활용합니다.',
     isOverview: false,

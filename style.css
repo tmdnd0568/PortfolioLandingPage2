@@ -74,11 +74,11 @@ header{
 }
 .nav{
   display:flex;align-items:center;justify-content:space-between;
-  height:72px;
+  height:80px;
 }
 .logo{font-family:"Pretendard",sans-serif;font-weight:900;font-size:22px;letter-spacing:-0.03em;color:var(--ink);display:inline-flex;align-items:center;}
 .logo span{color:var(--accent);}
-.logo img{height:50px;width:auto;display:block;object-fit:contain;}
+.logo img{height:68px;width:auto;display:block;object-fit:contain;}
 .nav-links{display:flex;gap:34px;}
 .nav-links a{
   font-size:14.5px;color:var(--ink-soft);font-weight:600;transition:color .15s;
@@ -810,7 +810,7 @@ section {
 .about-steps{margin-top:20px;display:flex;flex-direction:column;gap:10px;}
 .about-step{display:flex;align-items:center;gap:14px;}
 .about-step .n{
-  font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--accent);
+  font-family:"Noto Sans KR", "Noto Sans", sans-serif;font-size:12.5px;font-weight:700;color:#111111;
   width:28px;height:28px;border:1px solid var(--line);border-radius:8px;
   display:flex;align-items:center;justify-content:center;flex-shrink:0;
 }
@@ -1357,19 +1357,14 @@ section {
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Noto Sans KR", "Noto Sans", sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #111111;
   flex-shrink: 0;
 }
 .pj-type-badge {
-  height: 28px;
-  padding: 0 12px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(108, 92, 255, 0.14);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: #70758A;
   display: inline-flex;
@@ -1429,7 +1424,10 @@ section {
   gap: 8px;
 }
 .feat-icon {
-  color: #7057ff;
+  color: #333644;
+}
+.val-icon svg {
+  stroke: #333644;
 }
 .feat-title {
   font-size: 12px;
@@ -1461,7 +1459,7 @@ section {
 .pj-btn-primary {
   height: 48px;
   padding: 0 28px;
-  border-radius: 999px;
+  border-radius: 7px;
   background: transparent;
   border: 1px solid var(--accent);
   color: var(--accent);
@@ -1520,9 +1518,8 @@ section {
   flex-direction: column;
 }
 .val-title {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 13px;
-  font-weight: 700;
+  font-family: "Jua", sans-serif;
+  font-size: 13.5px;
   color: #15151d;
 }
 .val-desc {
@@ -1696,7 +1693,7 @@ section {
   gap: 8px;
   height: 50px;
   padding: 0 28px;
-  border-radius: 999px;
+  border-radius: 20px;
   background: rgba(255,255,255,0.70);
   border: 1px solid rgba(108,84,255,0.09);
   color: #616174;
@@ -1839,12 +1836,17 @@ section {
   width: 44px;
   height: 44px;
   border-radius: 14px;
-  background: linear-gradient(145deg, rgba(108,84,255,0.12), rgba(108,84,255,0.05));
-  border: 1px solid rgba(108,84,255,0.10);
+  background: linear-gradient(145deg, rgba(34,34,46,0.08), rgba(34,34,46,0.03));
+  border: 1px solid rgba(34,34,46,0.08);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 14px;
+}
+.detail-icon-badge svg,
+.row-icon-box svg,
+.frontend-icon-box svg {
+  stroke: #333644;
 }
 .detail-eyebrow {
   font-family: "JetBrains Mono", monospace;
@@ -1909,14 +1911,14 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 12px;
-  background: rgba(108,84,255,0.07);
+  background: rgba(34,34,46,0.06);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background 250ms ease-out;
 }
 .capability-row:hover .row-icon-box {
-  background: rgba(108,84,255,0.11);
+  background: rgba(34,34,46,0.10);
 }
 .row-info {
   display: flex;
@@ -2546,6 +2548,9 @@ footer{border-top:1px solid var(--line);padding:32px 0;}
   .nav-links {
     display: none;
   }
+  .logo img {
+    height: 54px;
+  }
   .nav-cta {
     padding: 8px 16px;
     font-size: 13px;
@@ -2819,9 +2824,7 @@ footer{border-top:1px solid var(--line);padding:32px 0;}
     border-radius: 6px;
   }
   .pj-type-badge {
-    height: 24px;
-    padding: 0 10px;
-    font-size: 10px;
+    font-size: 11px;
   }
   .pj-title {
     font-size: 20px;
@@ -2888,7 +2891,7 @@ footer{border-top:1px solid var(--line);padding:32px 0;}
     flex: 1;
     min-width: 120px;
     height: 38px;
-    border-radius: 999px;
+    border-radius: 7px;
     font-size: 12px;
     font-weight: 600;
     justify-content: center;
