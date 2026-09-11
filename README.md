@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm 길승우</h1>
+<h1 align="center"> 길승우 입니다 .</h1>
 <p align="center">
   <b>Product Designer & Frontend Developer</b><br/>
   사용자 경험을 설계하고, 디자인을 웹으로 구현하는 개발자입니다.
