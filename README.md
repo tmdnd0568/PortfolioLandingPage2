@@ -77,7 +77,8 @@ cd PortfolioLandingPage2
 
 ## 🔗 바로가기
 - 🌐 Live: https://tmdnd0568.github.io/PortfolioLandingPage2/
-- 💻 GitHub: https://github.com/tmdnd0568
+- 💻 GitHub: https://github.com/tmdnd0568/PortfolioLandingPage2
+- 🖥 Notion: https://app.notion.com/p/b5b1a4be835a8278b79d013ab332d1b6?source=copy_link
 - 📷 Instagram: (https://www.instagram.com/vibe.rlftmddn_/)
 - ✉️ 이메일: (xkdyxkdy0727@gmail.com)
 
