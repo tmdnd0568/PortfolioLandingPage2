@@ -144,7 +144,8 @@ function tick() {
   setTimeout(tick, deleting ? 45 : 85);
 }
 
-// Initial state launch
+// Initial state launch — clear any HTML default text before animating
+if (roleEl) roleEl.textContent = '';
 applyRoleDiagramState(0);
 tick();
 
