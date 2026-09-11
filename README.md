@@ -4,15 +4,6 @@
   사용자 경험을 설계하고, 디자인을 웹으로 구현하는 개발자입니다.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white" />
-</p>
 
 <p align="center">
   🔗 <b>Live</b> : <a href="https://tmdnd0568.github.io/PortfolioLandingPage2/">tmdnd0568.github.io/PortfolioLandingPage2</a>
@@ -34,7 +25,7 @@
 ## 🛠️ Skills
 | 분야 | 도구 |
 |---|---|
-| 디자인 | Figma, Canva |
+| 디자인 | Figma, Stitch |
 | 프론트엔드 | HTML5, CSS3, JavaScript, TypeScript |
 | 개발 도구 | GitHub, Vercel, Firebase, VS Code, Notion |
 | AI 활용 | ChatGPT, Claude, Gemini |
@@ -67,13 +58,6 @@ PortfolioLandingPage2/
 ├── script.js       # 인터랙션 스크립트
 └── style.css       # 스타일시트
 ```
-
-## 🚀 실행 방법
-```bash
-git clone https://github.com/tmdnd0568/PortfolioLandingPage2.git
-cd PortfolioLandingPage2
-```
-별도의 빌드 과정 없이 정적 파일로 동작합니다. `index.html`을 브라우저로 열거나 Live Server 등을 이용해 실행하세요.
 
 ## 🔗 바로가기
 - 🌐 Live: https://tmdnd0568.github.io/PortfolioLandingPage2/
