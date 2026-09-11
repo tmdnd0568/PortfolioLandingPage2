@@ -26,9 +26,9 @@
 | 분야 | 도구 |
 |---|---|
 | 디자인 | Figma, Stitch |
-| 프론트엔드 | HTML5, CSS3, JavaScript, TypeScript |
-| 개발 도구 | GitHub, Vercel, Firebase, VS Code, Notion |
-| AI 활용 | ChatGPT, Claude, Gemini |
+| 프론트엔드 | HTML5, CSS3, JavaScript |
+| 개발 도구 | GitHub, VS Code, Notion |
+| AI 활용 | ChatGPT, Claude, Gemini,Antigravity |
 
 ## ✨ 페이지 구성
 
