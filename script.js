@@ -349,7 +349,7 @@ const skillsDetailData = {
       { id: 'design', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`, title: 'Design', desc: 'UI/UX · Wireframe · Prototype', level: 90, labelText: '90%' },
       { id: 'frontend', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`, title: 'Front-End', desc: 'HTML · CSS · JavaScript · TypeScript · React · Vite', level: 85, labelText: '85%' },
       { id: 'dev', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`, title: 'Development', desc: 'GitHub · Vercel · Firebase', level: 85, labelText: '85%' },
-      { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Worker', desc: 'ChatGPT · Claude · Gemini · Antigravity · Stitch', level: 90, labelText: '90%' }
+      { id: 'ai', iconSvg: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`, title: 'AI Workflow', desc: 'ChatGPT · Claude · Gemini · Antigravity · Stitch', level: 90, labelText: '90%' }
     ]
   },
   design: {
@@ -359,10 +359,10 @@ const skillsDetailData = {
     desc: '사용자의 흐름을 설계하고 이를 실제 인터페이스로 시각화합니다.',
     isOverview: false,
     rows: [
-      { id: 'figma', icon: 'img/assect/figma.svg', name: 'Figma', desc: 'UI Design · Component · Prototype', level: 90, labelText: '90%' },
+      { id: 'figma', icon: 'img/assect/figma.svg', name: 'Figma', desc: 'UI Design & Prototype', level: 90, labelText: '90%' },
       { id: 'uiux', icon: 'img/assect/figma.svg', name: 'UI/UX Design', desc: 'User Flow · Wireframe · Interaction', level: 85, labelText: '85%' },
       { id: 'prototype', icon: 'img/assect/figma.svg', name: 'Prototype', desc: 'Interactive Prototype · Component Design', level: 80, labelText: '80%' },
-      { id: 'canva', icon: 'img/assect/canva.svg', name: 'Canva', desc: '프로모션 에셋 · 비주얼 그래픽 디자인', level: 70, labelText: '70%' }
+      { id: 'canva', icon: 'img/assect/canva.svg', name: 'Canva', desc: 'Design Tool', level: 70, labelText: '70%' }
     ]
   },
   frontend: {
@@ -372,12 +372,12 @@ const skillsDetailData = {
     desc: '사용자와 가장 가까운 곳에서, 아이디어를 인터페이스로 구현합니다.',
     isOverview: false,
     rows: [
-      { id: 'html5', icon: 'img/assect/html5.svg', name: 'HTML5', desc: '시맨틱 마크업 · 웹 구조 설계', level: 90, labelText: 'Proficient' },
-      { id: 'css3', icon: 'img/assect/css3.svg', name: 'CSS3', desc: 'Flexbox · Grid · Responsive', level: 80, labelText: 'Usable' },
-      { id: 'javascript', icon: 'img/assect/javascript.svg', name: 'JavaScript', desc: '구현경험 · 학습중 · 기초 기능', level: 65, labelText: 'Learning' },
-      { id: 'typescript', icon: 'img/assect/typescript.svg', name: 'TypeScript', desc: '구현경험 · 학습중', level: 50, labelText: 'Learning' },
-      { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: '구현경험 · 학습중', level: 38, labelText: 'Learning' },
-      { id: 'vite', icon: 'img/assect/vite.svg', name: 'Vite', desc: '구현경험 · 학습중', level: 45, labelText: 'Learning' }
+      { id: 'html5', icon: 'img/assect/html5.svg', name: 'HTML5', desc: 'Semantic Markup', level: 90, labelText: 'Proficient' },
+      { id: 'css3', icon: 'img/assect/css3.svg', name: 'CSS3', desc: 'Responsive Layout', level: 80, labelText: 'Usable' },
+      { id: 'javascript', icon: 'img/assect/javascript.svg', name: 'JavaScript', desc: 'DOM & Interaction', level: 65, labelText: 'Learning' },
+      { id: 'typescript', icon: 'img/assect/typescript.svg', name: 'TypeScript', desc: 'Type-safe Development', level: 50, labelText: 'Learning' },
+      { id: 'react', icon: 'img/assect/react.svg', name: 'React', desc: 'Component UI', level: 38, labelText: 'Learning' },
+      { id: 'vite', icon: 'img/assect/vite.svg', name: 'Vite', desc: 'Build Tool', level: 45, labelText: 'Learning' }
     ]
   },
   dev: {
@@ -387,25 +387,25 @@ const skillsDetailData = {
     desc: '프로젝트의 코드 관리부터 서비스 배포까지 개발 흐름을 관리합니다.',
     isOverview: false,
     rows: [
-      { id: 'github', icon: 'img/assect/github.svg', name: 'GitHub', desc: 'Version Control · Branch Strategy', level: 90, labelText: '90%' },
-      { id: 'vercel', icon: 'img/assect/vercel.svg', name: 'Vercel', desc: 'Automated CI/CD · Deployment', level: 85, labelText: '85%' },
-      { id: 'firebase', icon: 'img/assect/firebase.svg', name: 'Firebase', desc: 'Backend Service · Realtime DB', level: 75, labelText: '75%' },
-      { id: 'vscode', icon: 'img/assect/vscode.svg', name: 'VS Code', desc: 'Development Environment & Extensions', level: 95, labelText: '95%' },
-      { id: 'notion', icon: 'img/assect/notion.svg', name: 'Notion', desc: 'Documentation & Workflow Tracking', level: 90, labelText: '90%' }
+      { id: 'github', icon: 'img/assect/github.svg', name: 'GitHub', desc: 'Version Control', level: 90, labelText: '90%' },
+      { id: 'vercel', icon: 'img/assect/vercel.svg', name: 'Vercel', desc: 'Deployment', level: 85, labelText: '85%' },
+      { id: 'firebase', icon: 'img/assect/firebase.svg', name: 'Firebase', desc: 'Auth & Backend', level: 75, labelText: '75%' },
+      { id: 'vscode', icon: 'img/assect/vscode.svg', name: 'VS Code', desc: 'Development', level: 95, labelText: '95%' },
+      { id: 'notion', icon: 'img/assect/notion.svg', name: 'Notion', desc: 'Documentation', level: 90, labelText: '90%' }
     ]
   },
   ai: {
     badgeSvg: `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#333644" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`,
-    eyebrow: 'AI WORKER',
+    eyebrow: 'AI WORKFLOW',
     title: 'AI 활용 워크플로우',
     desc: 'AI를 단순 코드 생성 도구가 아니라 기획, 개발, 분석 및 문제 해결 과정에 활용합니다.',
     isOverview: false,
     rows: [
-      { id: 'chatgpt', icon: 'img/assect/chatgpt.svg', name: 'ChatGPT', desc: '기획 · 코드 분석 · 디버깅', level: 95, labelText: '95%' },
-      { id: 'claude', icon: 'img/assect/claude.svg', name: 'Claude', desc: '코드 작성 · 분석 · 리팩터링', level: 90, labelText: '90%' },
-      { id: 'gemini', icon: 'img/assect/gemini.svg', name: 'Gemini', desc: '리서치 · 아이디어 · 개발 보조', level: 85, labelText: '85%' },
-      { id: 'antigravity', icon: 'img/assect/antigravity.svg', name: 'Antigravity', desc: 'AI-assisted Pair Programming', level: 80, labelText: '80%' },
-      { id: 'stitch', icon: 'img/assect/stitch.svg', name: 'Stitch', desc: 'AI 기반 UI & 코드 생성', level: 85, labelText: '85%' }
+      { id: 'chatgpt', icon: 'img/assect/chatgpt.svg', name: 'ChatGPT', desc: 'Coding & Debugging', level: 95, labelText: '95%' },
+      { id: 'claude', icon: 'img/assect/claude.svg', name: 'Claude', desc: 'Coding Assistant', level: 90, labelText: '90%' },
+      { id: 'gemini', icon: 'img/assect/gemini.svg', name: 'Gemini', desc: 'Research & API', level: 85, labelText: '85%' },
+      { id: 'antigravity', icon: 'img/assect/antigravity.svg', name: 'Antigravity', desc: 'AI Coding', level: 80, labelText: '80%' },
+      { id: 'stitch', icon: 'img/assect/stitch.svg', name: 'Stitch', desc: 'UI Prototyping', level: 85, labelText: '85%' }
     ]
   }
 };
